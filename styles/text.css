@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.p1 {
+    font-weight: bolder;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 48px;
+    width: 284px;
+    line-height: 24px;
+    margin-bottom: 2px;
+}
+
+.p2 {
+    font-size: 14px;
+    color: #606060;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 21px;
+    height: 21px;
+    width: 284px;
+}

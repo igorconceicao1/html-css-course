@@ -1,0 +1,171 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+div {
+    margin: 15px;
+}
+
+div > button {
+    vertical-align: top;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.uber > button {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border: none;
+    transition: 1s;
+}
+.uber button:hover {
+    opacity: 0.8;
+}
+
+.amazon > button {
+    background-color: rgb(255, 216, 20);
+    padding: 10px 0;
+    width: 180px;
+    border: none;
+    border-radius: 25px;
+    transition: 1s;
+}
+.amazon button:hover {
+    opacity: 0.7;
+}
+
+.github > button {
+    color: white;
+    background-color: rgb(46, 164, 79);
+    border: none;
+    padding: 10px;
+    width: 100px;
+    border-radius: 4px;
+    font-weight: bolder;
+    transition: 0.15s;
+}
+.github button:hover {
+    opacity: 0.8;
+}
+
+.bootstrap > button.b01 {
+    color: white;
+    background-color: rgb(121, 82, 179);
+    border: none;
+    padding: 10px;
+    width: 120px;
+    border-radius: 4px;
+    font-weight: bolder;
+    transition: 0.20s;
+}
+.bootstrap > button.b01:hover {
+    background-color: rgb(72, 31, 135);
+}
+
+.bootstrap > button.b02 {
+    color: rgb(108, 117, 125);
+    background-color: white;
+    border: 1px solid rgb(108, 117, 125);
+    padding: 10px;
+    width: 120px;
+    border-radius: 4px;
+    font-weight: bolder;
+    transition: 0.20s;
+}
+.bootstrap > button.b02:hover {
+    background-color: rgb(86, 91, 98);
+    color: white;
+}
+
+.linkedin > button.b03 {
+    color: white;
+    background-color: rgb(10, 102, 194);
+    border: none;
+    padding: 10px;
+    width: 220px;
+    border-radius: 15px;
+    font-weight: bolder;
+    transition: 0.20s;
+}
+.linkedin > button.b03:hover {
+    background-color: rgb(11, 87, 162);
+    color: white;
+}
+
+.linkedin > button.b04 {
+    color: rgb(10, 102, 194);
+    background-color: white;
+    border: 1px solid rgb(10, 102, 194);
+    padding: 10px;
+    width: 80px;
+    border-radius: 15px;
+    font-weight: bolder;
+    transition: 0.20s;
+}
+.linkedin > button.b04:hover {
+    background-color: rgb(185, 220, 255);
+    border: 2px solid rgb(10, 102, 194);
+    padding: 8px;
+}
+
+div.amazon_menu {
+    border: 2px solid black;
+    width: 400px;
+    padding: 10px;
+}
+
+.link {
+    color: rgb(0, 133, 133);
+}
+.link:hover {
+    color: rgb(196, 75, 0);
+}
+
+.title {
+    font-size: 1.8em;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.price {
+    color: rgb(0, 118, 0);
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.delivery {
+    padding: 20px 0px;
+}
+
+.cart_button {
+    background-color: rgb(255, 216, 20);
+    padding: 10px 0;
+    width: 140px;
+    border: none;
+    border-radius: 25px; 
+    margin-right: 10px;
+    transition: 0.20s;
+}
+.cart_button:hover {
+    opacity: 0.7;
+}
+.cart_button:active {
+    opacity: 0.3;
+}
+
+.buy_button{
+    background-color: rgb(255, 164, 28);
+    padding: 10px 0;
+    width: 140px;
+    border: none;
+    border-radius: 25px;
+    transition: 0.20s;
+}
+.buy_button:hover {
+    opacity: 0.7;
+}
+.buy_button:active {
+    opacity: 0.3;
+}

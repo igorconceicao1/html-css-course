@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+div#pagination,
+div#stretch,
+div#click_3d,
+div#margin_padding {
+    margin: 10px;
+}
+
+div#pagination button{
+    padding: 8px;
+}
+div#pagination a {
+    padding: 5px;
+}
+
+div#stretch button{
+    background-color: green;
+    color: white;
+    font-size: 1.2em;
+    font-weight: normal;
+    border: none;
+    padding: 12px 25px;
+    transition: 1s;
+    cursor: pointer;
+}
+div#stretch button:hover {
+    padding: 24px 50px;
+}
+
+
+div#click_3d button{
+    background-color: green;
+    color: white;
+    font-size: 1.2em;
+    font-weight: normal;
+    border: none;
+    padding: 12px 25px;
+}
+div#click_3d button:active {
+    box-shadow: 1px 1px 1px black;
+}
+
+div#margin_padding button{
+    background-color: green;
+    color: white;
+    font-size: 1.2em;
+    font-weight: normal;
+    border: none;
+    padding: 12px 25px;
+    margin: 0px 15px;
+    transition: 1s;
+}
+
+div#margin_padding button:hover{
+    padding: 12px 45px;
+}
